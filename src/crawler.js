@@ -47,7 +47,10 @@ const FAIL = [0, 1];
 			).innerText;
 			let picture = bodyHandle.querySelector(
 				"#topic_list > li > div > p.topic-img > img"
-			).src;
+			)
+				? bodyHandle.querySelector("#topic_list > li > div > p.topic-img > img")
+						.src
+				: "";
 			return {
 				id,
 				via,
