@@ -1,7 +1,7 @@
 import puppeteer from "puppeteer";
 import { transferDateFromDaysAgo } from "./utils/index";
 const fs = require("fs");
-let start = 160;
+let start = 227;
 let BaseUrl = `https://www.lengdou.net/topic/${start}`;
 
 const FAIL = [0, 1];
